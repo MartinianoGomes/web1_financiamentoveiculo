@@ -38,12 +38,81 @@
     color: #333;
 }
 
+.explanation p.installments {
+    color: #939393;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.btn-simulate-again {
+    width: 384px;
+    height: 64px;
+
+    background: transparent;
+    border: 1.5px solid #00C27C;
+    color: #00C27C;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-simulate-again:hover {
+    background-color: #00C27C;
+    color: white;
+}
+
+.btn-simulate-again:hover {
+    background-color: #00C27C;
+    color: white;
+}
+
+.floating-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 50%;
+    left: 50%;
+
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+
+    width: 20px;
+    height: 20px;
+
+    background-color: white;
+
+    border-radius: 50%;
+
+    z-index: 10;
+}
+
+.floating-button img {
+    width: 266px;
+    height: 266px;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #4E4E4E;
+}
 
 
 
-/* Side Right */
-.side-right {
-    width: 50%;
-    position: relative;
-    overflow: hidden;
+
+
+
+/* Estilizações do Inspecionar */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 100%;
 }

@@ -54,7 +54,7 @@ body {
     margin-top: 20px;
 }
 
-.btn.btn-simulate-again {
+.btn-simulate-again {
     background: transparent;
     border: 1.5px solid #00C27C;
     color: #00C27C;
@@ -65,7 +65,7 @@ body {
     transition: 0.3s;
 }
 
-.btn.btn-simulate-again:hover {
+.btn-simulate-again:hover {
     background-color: #00C27C;
     color: white;
 }
@@ -88,6 +88,10 @@ body {
 .floating-button img {
     width: 50%;
 }
+
+
+
+/* Side Right */
 
 .side-right {
     width: 50%;
@@ -112,6 +116,6 @@ body {
 }
 
 .copyright {
-    font-size: 14px;
-    color: #707070;
+    font-size: 16px;
+    color: #4E4E4E;
 }
