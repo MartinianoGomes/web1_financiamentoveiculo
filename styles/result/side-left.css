@@ -1,0 +1,15 @@
+/* Lado esquerdo da página Resultados */
+
+.side-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+    height: 100dvh;
+
+    background-color: #F9F9F9;
+
+    gap: 42px;
+}

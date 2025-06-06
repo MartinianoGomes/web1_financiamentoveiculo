@@ -1,9 +1,12 @@
-/*Side Left*/
+/*Side Left da página index*/
 .side-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 50vw;
+    height: 100dvh;
 }
 
 .logo {

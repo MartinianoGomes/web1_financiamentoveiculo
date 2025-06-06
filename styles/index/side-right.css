@@ -1,9 +1,12 @@
-/* Side Right */
+/* Side Right da página Index*/
 .side-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 50vw;
+    height: 100dvh;
 
     background-color: #F9F9F9;
 
