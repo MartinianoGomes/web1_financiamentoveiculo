@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url(side-left.css);
+@import url(side-right.css);
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,109 +16,12 @@ body {
     font-style: normal;
 }
 
-.side-left,
-.side-right {
+.side-left {
     width: 50vw;
     height: 100dvh;
 }
 
-/*Side Left*/
-.side-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo {
-    width: 426px;
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.title-left h1 {
-    width: 426px;
-    color: #4E4E4E;
-    font-size: 64px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.title-left h1 strong {
-    font-weight: 600;
-    color: #20C982;
-}
-
-.title-left p {
-    width: 410px;
-    color: #939393;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.ellipseArrow {
-    position: relative;
-    top: 10%;
-    left: 30px;
-}
-
-/* Side Right */
 .side-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #F9F9F9;
-
-    gap: 42px;
-}
-
-.title-right {
-    width: 384px;
-}
-
-.title-right p {
-    font-size: 24px;
-    color: #939393;
-    font-weight: 500;
-    width: 341px;
-}
-
-/* Estilização do Form */
-form {
-    display: flex;
-    flex-direction: column;
-
-    gap: 24px;
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-
-    border: none;
-}
-
-fieldset input,
-fieldset select {
-    padding-block: 20px;
-    padding-inline: 24px;
-
-    border: 1px solid #D9D9D9;
-    border-radius: 7px;
-}
-
-form button {
-    border-radius: 7px;
-    border: none;
-
-    background-color: #20C982;
-
-    font-weight: bold;
-    font-size: 18px;
-    color: #FFFFFF;
-
-    padding: 20px 24px;
-    width: 384px;
+    width: 50vw;
+    height: 100dvh;
 }

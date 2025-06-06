@@ -22,11 +22,11 @@
         <div class="car">
             <img src="assets/images/car.png" alt="">
         </div>
-    </section>
 
-    <div class="ellipseArrow">
-        <img src="assets/images/ellipseArrow.png" alt="">
-    </div>
+        <div class="ellipseArrow">
+            <img src="assets/images/ellipseArrow.png" alt="">
+        </div>
+    </section>
 
     <section class="side-right">
         <div class="title-right">
@@ -37,39 +37,41 @@
         <div>
             <form action="">
                 <fieldset>
-                    <label for="valor">Valor</label>
-                    <input type="text" name="valor" id="valor" placeholder="Digite um valor" required>
+                    <label for="value">Valor</label>
+                    <input type="text" name="value" id="value" placeholder="Digite um valor" required>
                 </fieldset>
 
                 <fieldset>
-                    <select name="" id="">
-                        <option value="" disabled selected>Selecione um banco</option>
-                        <option value="">Caixa</option>
-                        <option value="">Santander</option>
-                        <option value="">Bradesco</option>
-                        <option value="">Itaú</option>
-                        <option value="">Nubank</option>
-                        <option value="">Inter</option>
+                    <select name="bank" id="bank">
+                        <option value="" class="placeholder" disabled selected hidden>Selecione um banco</option>
+                        <option value="caixa">Caixa</option>
+                        <option value="santander">Santander</option>
+                        <option value="bradesco">Bradesco</option>
+                        <option value="itau">Itaú</option>
+                        <option value="nubank">Nubank</option>
+                        <option value="inter">Inter</option>
                     </select>
                 </fieldset>
 
                 <fieldset>
-                    <select name="" id="">
-                        <option value="" disabled selected>Em quantos meses?</option>
-                        <option value="">6</option>
-                        <option value="">12</option>
-                        <option value="">24</option>
-                        <option value="">68</option>
+                    <select name="months" id="months">
+                        <option value="" class="placeholder" disabled selected hidden>Em quantos meses?</option>
+                        <option value="6">6</option>
+                        <option value="12">12</option>
+                        <option value="18">18</option>
+                        <option value="24">24</option>
+                        <option value="36">36</option>
+                        <option value="48">48</option>
+                        <option value="60">60</option>
+                        <option value="72">72</option>
                     </select>
                 </fieldset>
 
-                <button>Simular o financiamento</button>
+                <button id="simulator">Simular o financiamento</button>
+                <a href="pages/parcela.html" target=" _blank" rel="noopener noreferrer">Pagina 2</a>
             </form>
         </div>
     </section>
-
-
-    <a href="pages/parcela.html" target=" _blank" rel="noopener noreferrer">Oi</a>
 </body>
 
 </html>

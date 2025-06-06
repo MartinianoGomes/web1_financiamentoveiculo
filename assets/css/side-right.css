@@ -1,0 +1,107 @@
+/* Side Right */
+.side-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F9F9F9;
+
+    gap: 42px;
+}
+
+.title-right {
+    width: 384px;
+}
+
+.title-right p {
+    font-size: 24px;
+    color: #939393;
+    font-weight: 500;
+    width: 341px;
+}
+
+/* Estilização do Form */
+form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    border: none;
+}
+
+fieldset label {
+    position: absolute;
+
+    color: #20C982;
+
+    font-weight: 500;
+    font-size: 14px;
+
+    background-color: #F9F9F9;
+    padding-inline: 5px;
+
+    top: -10px;
+    left: 18px;
+}
+
+fieldset input {
+    padding-block: 20px;
+    padding-inline: 24px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 7px;
+
+    background: none;
+}
+
+fieldset select {
+    padding-block: 20px;
+    padding-inline: 20px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 7px;
+
+    background: none;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select {
+    color: gray;
+}
+
+select option {
+    color: black;
+}
+
+fieldset input:focus,
+fieldset select:focus {
+    outline: 2px solid #20C982;
+}
+
+form button {
+    border-radius: 7px;
+    border: none;
+
+    background-color: #20C982;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    padding: 20px 24px;
+    width: 384px;
+
+    cursor: pointer;
+}
