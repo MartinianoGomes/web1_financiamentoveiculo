@@ -25,7 +25,11 @@
     }
 
     .results-display {
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        padding: 30px;
+        border-radius: 16px;
         gap: 24px;
+        margin-left: 10px;
     }
 
     .result-item .label {
@@ -49,9 +53,16 @@
     }
 
     .floating-button {
-        rotate: 90deg;
+        background: none;
+    }
 
+    .floating-button img {
+        rotate: 90deg;
+        width: 148px;
+        height: 148px;
         background: transparent;
+        margin-left: 10px;
+        margin-bottom: 300px;
     }
 
     .copyright {
