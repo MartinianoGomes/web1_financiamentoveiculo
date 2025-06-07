@@ -15,6 +15,7 @@
 @media (max-width: 930px) {
     body {
         flex-direction: column;
+        height: 100dvh;
     }
 
     .side-left,
@@ -24,15 +25,62 @@
     }
 
     .logo {
+        width: auto;
+        margin-top: 0px;
+    }
+
+    .title-left {
         width: 100%;
-        margin-top: 20px;
     }
 
     .title-left h1 {
-        width: 100%;
+        font-size: 50px;
+        width: auto;
+        text-align: center;
+    }
+
+    .title-left p {
+        display: none;
     }
 
     .ellipseArrow {
         display: none;
+    }
+
+    .car {
+        display: none;
+    }
+
+    .side-right {
+        background-color: #fff;
+    }
+
+    .title-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-right p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .title-right img {
+        display: none;
+    }
+
+    #simulator {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    form {
+        width: 344px;
+    }
+
+    #simulator {
+        width: 344px;
     }
 }
