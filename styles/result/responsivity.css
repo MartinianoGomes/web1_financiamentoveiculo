@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .side-left {
+        width: 100dvw;
+        height: 100dvh;
+        padding: 40px 24px;
+
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+
+        background: white;
+    }
+
+    .side-right {
+        display: none;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .results-display {
+        gap: 24px;
+    }
+
+    .result-item .label {
+        font-size: 16px;
+    }
+
+    .result-item .value-installment,
+    .result-item .value-total {
+        font-size: 32px;
+    }
+
+    .explanation p.installments {
+        font-size: 14px;
+    }
+
+    .btn-simulate-again {
+        width: 100%;
+        max-width: 340px;
+        height: 56px;
+        font-size: 15px;
+    }
+
+    .floating-button {
+        rotate: 90deg;
+
+        background: transparent;
+    }
+
+    .copyright {
+        display: none;
+    }
+}

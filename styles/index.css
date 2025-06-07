@@ -2,6 +2,7 @@
 
 @import url(index/side-left.css);
 @import url(index/side-right.css);
+@import url(index/responsivity.css);
 
 * {
     box-sizing: border-box;

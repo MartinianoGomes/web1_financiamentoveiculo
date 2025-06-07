@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .car img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1090px) {
+
+    .ellipseArrow,
+    .ellipseArrow img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 930px) {
+    body {
+        flex-direction: column;
+    }
+
+    .side-left,
+    .side-right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .title-left h1 {
+        width: 100%;
+    }
+
+    .ellipseArrow {
+        display: none;
+    }
+}
